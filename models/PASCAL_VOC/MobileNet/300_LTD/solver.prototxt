@@ -1,0 +1,27 @@
+train_net:"/home/neuiva1/shihua/ssd/voc_300/MobileNet/Two_Add_Deconv/train.prototxt"
+test_net:"/home/neuiva1/shihua/ssd/voc_300/MobileNet/Two_Add_Deconv/test.prototxt"
+test_iter: 4952
+test_interval: 5000
+base_lr: 0.001
+display: 10
+max_iter: 120000
+lr_policy: "multistep"
+gamma: 0.1
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 5000
+snapshot_prefix:"/home/neuiva1/shihua/ssd/voc_300/MobileNet/Two_Add_Deconv/VOC0712_SSD_300x300"
+solver_mode: GPU
+debug_info: false
+snapshot_after_train: true
+test_initialization: false
+show_per_class_result: true
+average_loss: 10
+stepvalue: 80000
+stepvalue: 100000
+stepvalue: 120000
+iter_size: 2
+type: "SGD"
+eval_type: "detection"
+ap_version: "11point"
+
