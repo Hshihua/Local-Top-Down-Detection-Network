@@ -1,5 +1,5 @@
 # Local-Top-Down-Detection-Network
-This is the realization of "[A Local Top-Down Module for Object Detection with Multi-Scale Features][1]".
+This is the offical realization of "[A Local Top-Down Module for Object Detection with Multi-Scale Features][1]".
 
 ## network
 Our model architecture is defined as depicted bellow, please refer to the paper for more details:
