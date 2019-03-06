@@ -15,6 +15,7 @@ Our model architecture is defined as depicted bellow, please refer to the paper 
 ### Visual results between SSD300 and Ours300.
 <img src='visual_results.png'  width='900px' />
 
+## Install 
 Please follow the [instructions][2] to install the SSD correctly, replace with our *.prototxt in ./models will work and reproduce our results publish in the paper.
 
 
